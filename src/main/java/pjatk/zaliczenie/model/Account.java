@@ -1,20 +1,20 @@
 package pjatk.zaliczenie.model;
 
 public class Account extends User {
-    private int accountNumber;
+    private String accountNumber;
     private int moneyAmount;
 
-    public Account(int id, String name, int accountNumber, int moneyAmount) {
+    public Account(int id, String name, String accountNumber, int moneyAmount) {
         super(id, name);
         this.accountNumber = accountNumber;
         this.moneyAmount = moneyAmount;
     }
 
-    public int getAccountNumber() {
+    public String getAccountNumber() {
         return accountNumber;
     }
 
-    public void setAccountNumber(int accountNumber) {
+    public void setAccountNumber(String accountNumber) {
         this.accountNumber = accountNumber;
     }
 
@@ -25,4 +25,5 @@ public class Account extends User {
     public void setMoneyAmount(int moneyAmount) {
         this.moneyAmount = moneyAmount;
     }
+
 }
