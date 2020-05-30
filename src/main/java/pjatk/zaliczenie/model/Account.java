@@ -1,5 +1,7 @@
 package pjatk.zaliczenie.model;
 
+import java.math.BigDecimal;
+
 public class Account extends User {
     private String accountNumber;
     private int moneyAmount;

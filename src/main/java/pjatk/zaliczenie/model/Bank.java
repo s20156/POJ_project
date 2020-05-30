@@ -18,4 +18,20 @@ public class Bank {
         Account newAccount = new Account(id, name, accountNumber, moneyAmount);
         accountList.add(newAccount);
     };
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getBankID() {
+        return bankID;
+    }
+
+    public void setBankID(String bankID) {
+        this.bankID = bankID;
+    }
 }
